@@ -1,0 +1,32 @@
+.button {
+    height: 40px;
+    width: 100px;
+    background-color: var(--medBlue);
+    color: var(--white);
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: var(--fontXSmall);
+    line-height: 1.1px;
+    transition: 250ms ease-in-out;
+}
+
+.active {
+    background-color: var(--white);
+    color: var(--medBlue);
+}
+
+button:hover {
+    background-color: var(--white);
+    color: var(--medBlue);
+}
+
+@media screen and (max-width: 425px) {
+
+    .button {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}

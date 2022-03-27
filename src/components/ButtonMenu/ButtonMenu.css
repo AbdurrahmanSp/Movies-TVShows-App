@@ -1,0 +1,4 @@
+.buttons-container {
+    max-width: var(--maxWidth);
+    margin: 0 auto;
+}
