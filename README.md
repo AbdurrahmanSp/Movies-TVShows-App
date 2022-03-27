@@ -1,6 +1,6 @@
-# Movies&TvShows App
+# Movies&TVShows App
 
-The app displays ten top rated movies and TV shows, depending on which button is active. The application has the ability to navigate through movies / TV shows by clicking on a specific button, the search bar is "live" which is activated 1 second after entering text. A detailed preview is also available for each selected movie or TV shows. The application is responsive for every device.
+The app displays ten top rated movies and TV shows, depending on which button is active. The application has the ability to navigate through movies / TV shows by clicking on a specific button, the search bar is "live" which is activated 1 second after entering text. A detailed preview is also available for every selected movie or TV shows. The application is responsive for every device.
 
 ## About project
 
