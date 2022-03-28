@@ -12,6 +12,7 @@ The app displays top ten rated movies and TV shows, depending on which button is
 ### Built With:
 
 - ReactJS
+- CSS3
 - The Movie Database API
 
 ### Available commands:
