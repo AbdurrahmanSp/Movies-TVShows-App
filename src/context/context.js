@@ -1,6 +1,6 @@
 import React, { useState, useEffect, createContext, useRef } from 'react';
 import { TOP_RATED_MOVIES_URL, TOP_RATED_TV_SHOWS_URL } from '../config';
-// Custom func
+// custom func
 import { getData } from '../api/api';
 
 export const Context = createContext();

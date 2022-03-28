@@ -18,10 +18,6 @@ const DetailedView = () => {
 
     const { movie, loading, error } = useMovieFetch(movieId);
 
-    // const taglineL = `${''}${movie.tagline}${''}`
-
-    console.log(movie);
-
     if (loading) return <Loader />;
 
     if (error) return <div className='error'>Ops, something went wrong...! </div>;

@@ -30,9 +30,9 @@ npm start
 
 ### Screenshots:
 
-<img width="851" alt="chrome_iB07jaN2tq" src="https://user-images.githubusercontent.com/72163962/160289266-3759f5c7-0681-4a13-bfe2-96f996ce2500.png">
-<img width="960" alt="chrome_dNtAENN7Om" src="https://user-images.githubusercontent.com/72163962/160289348-188b2449-b0c4-4dee-be28-2a3ac1a00bc3.png">
-<img width="938" alt="chrome_wDM3Wwju8M" src="https://user-images.githubusercontent.com/72163962/160289350-92626908-ec8b-4701-b0ea-7d7a40dfeebb.png">
-<img width="960" alt="chrome_F5R8zzhay3" src="https://user-images.githubusercontent.com/72163962/160289360-05e2ac93-2208-49f1-a6c1-4187599a2c10.png">
-<img width="384" alt="chrome_pXaXcsuoEO" src="https://user-images.githubusercontent.com/72163962/160289446-23f3d743-fd55-42ef-8140-77da736b6bf7.png">
-<img width="160" alt="chrome_u5wCfZU1Mk" src="https://user-images.githubusercontent.com/72163962/160289450-05a00947-9acf-4cfe-a6e3-32163fbb5ba1.png">
+<img width="960" alt="chrome_OJmaOj4hAn" src="https://user-images.githubusercontent.com/72163962/160402926-cc6cf288-4c0c-4e4d-8a54-822e3733e0ec.png">
+<img width="960" alt="chrome_LqxnhxIZdl" src="https://user-images.githubusercontent.com/72163962/160402946-6c097ca5-2f8d-4847-b2a3-fc2c25849d6e.png">
+<img width="960" alt="chrome_fj5uf7M4Of" src="https://user-images.githubusercontent.com/72163962/160402955-86ccdb50-775a-435d-bc0c-494086503dfa.png">
+<img width="960" alt="chrome_tpPmitnaXo" src="https://user-images.githubusercontent.com/72163962/160402967-1cacdcc7-691c-4ad6-b861-8b44603f7f47.png">
+<img width="384" alt="chrome_pnkg32ly1b" src="https://user-images.githubusercontent.com/72163962/160403008-adb6d39c-2dc8-42ae-99fc-7cddc1ec18fa.png">
+<img width="188" alt="chrome_xTr3ttoaCm" src="https://user-images.githubusercontent.com/72163962/160403014-e69f0105-c319-4aa3-83e3-ffe5b4c897fb.png">

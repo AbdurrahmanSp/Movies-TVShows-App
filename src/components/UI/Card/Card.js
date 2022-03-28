@@ -4,7 +4,7 @@ import { IMAGE_BASE_URL, BACKDROP_SIZE } from '../../../config';
 import './Card.css';
 // images
 import NoImage from '../../../images/no-image.jpg';
-// Link
+// link
 import { Link } from 'react-router-dom';
 
 const Card = ({ backdrop_path, name, title, clickable, movieId }) => {

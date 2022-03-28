@@ -8,6 +8,7 @@ import { Context } from '../../context/context';
 import Movies from './Movies/Movies';
 import TvSeries from './TvShows/TvShows';
 import Wrapper from '../UI/Wrapper/Wrapper';
+import TvShows from './TvShows/TvShows';
 
 const Items = () => {
     const { activeButton } = useContext(Context);
@@ -15,14 +16,17 @@ const Items = () => {
     let content;
 
     if (activeButton === 'tv') {
-        content = <TvSeries />
+        content = <TvShows />
     } else {
         content = <Movies />
     }
 
+    const section = activeButton.toUpperCase();
+
     return (
         <Wrapper>
             <section className='items-container'>
+                <h3 className='items-header'>TOP RATED {section}{activeButton === 'tv' ? ' SHOWS' : 'S'}</h3>
                 {content}
             </section>
         </Wrapper>

@@ -7,12 +7,12 @@ import Loader from '../../Common/Loader/Loader';
 import Grid from '../../UI/Grid/Grid';
 import NoResults from '../../Common/NoResults/NoResults';
 
-const TvSeries = () => {
-    const { tvSeries, loadingShows, searchTerm, activeButton } = useContext(Context);
+const TvShows = () => {
+    const { tvSeries, loadingShows, searchTerm } = useContext(Context);
 
     if (loadingShows) return <Loader />
 
-    if (tvSeries.length === 0) return <NoResults searchTerm={searchTerm} field={activeButton} />
+    if (tvSeries.length === 0) return <NoResults searchTerm={searchTerm} />
 
     return (
         <Grid>
@@ -28,4 +28,4 @@ const TvSeries = () => {
     );
 }
 
-export default TvSeries;
+export default TvShows;

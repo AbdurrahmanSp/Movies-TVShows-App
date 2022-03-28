@@ -18,11 +18,11 @@ export const getSingleData = async (movieId, keyWord) => {
 
     const endpoint = `${API_URL}${keyWord}/${movieId}?api_key=${API_KEY}`;
 
-    const singleMovieResponse = await fetch(endpoint);
+    const singleDataResponse = await fetch(endpoint);
 
-    const singleMovie = await singleMovieResponse.json();
+    const singleData = await singleDataResponse.json();
 
-    return singleMovie;
+    return singleData;
 }
 
 

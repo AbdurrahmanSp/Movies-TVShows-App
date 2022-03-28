@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { useContext } from 'react';
 import { Context } from '../context/context';
 // custom func
-import { getSingleData, getSingleMovie } from '../api/api';
+import { getSingleData } from '../api/api';
 
 export const useMovieFetch = (movieId) => {
   const [movie, setMovie] = useState();
@@ -14,7 +14,7 @@ export const useMovieFetch = (movieId) => {
   const keyWord = activeButton;
 
   useEffect(() => {
-    const fetchMovie = async () => {
+    const fetchData = async () => {
       try {
         setLoading(true);
         setError(false);
@@ -28,7 +28,7 @@ export const useMovieFetch = (movieId) => {
       }
     }
 
-    fetchMovie();
+    fetchData();
   }, [movieId]);
 
   return { movie, loading, error };

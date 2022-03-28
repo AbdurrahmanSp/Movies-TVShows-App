@@ -2,10 +2,9 @@ import React from 'react';
 // styles
 import './NoResults.css';
 
-const NoResults = ({ searchTerm, field }) =>
-    <p className='no-results'
-    >
-        No results for "<i>{searchTerm}</i>" in {field} !
+const NoResults = ({ searchTerm }) =>
+    <p className='no-results'>
+        No results for "<i>{searchTerm}</i>" !
     </p>
 
 export default NoResults;

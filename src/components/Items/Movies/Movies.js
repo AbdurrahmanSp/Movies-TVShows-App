@@ -9,11 +9,11 @@ import Grid from '../../UI/Grid/Grid';
 import NoResults from '../../Common/NoResults/NoResults';
 
 const Movies = () => {
-    const { movies, loadingMovies, searchTerm, activeButton } = useContext(Context);
+    const { movies, loadingMovies, searchTerm } = useContext(Context);
 
     if (loadingMovies) return <Loader />
 
-    if (movies.length === 0) return <NoResults searchTerm={searchTerm} field={activeButton} />
+    if (movies.length === 0) return <NoResults searchTerm={searchTerm} />
 
     return (
         <Grid>

@@ -41,6 +41,7 @@
     z-index: -1;
     top: 0;
     left: 0;
+    animation: animateImg 800ms;
 }
 
 .header {
@@ -68,6 +69,15 @@
     text-align:  center;
 }
 
+@keyframes animateImg {
+    from {
+        opacity: 0;
+    }
+    to { 
+        opacity: 1;
+    }
+}
+
 @media screen and (max-width: 768px ) {
     .header {
         font-size: var(--fontBig);
@@ -79,6 +89,7 @@
 
     .overview {
         font-size: var(--fontXSmall);
+        line-height: 1.5em;
         padding-bottom: 20px;
     }
 }

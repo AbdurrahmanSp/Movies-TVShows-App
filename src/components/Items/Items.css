@@ -1,25 +1,15 @@
 .items-container {
-  z-index: 1;
   max-width: var(--maxWidth);
   margin: 0 auto;
-  /* overflow-y: scroll; */
 }
 
-/* ::-webkit-scrollbar {
-    width: 10px;
-    margin-left: 5px;
-}
-  
-::-webkit-scrollbar-track {
-  background: transparent;
+.items-header {
+  margin-bottom: 10px;
+  font-size: var(--fontSmall);
 }
 
-
-::-webkit-scrollbar-thumb {
-  background: #ffffff;
-  border-radius: 50px;
+@media screen and (max-width: 375px) {
+  .items-header {
+    font-size: var(--fontXSmall);
+  }
 }
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: #dad8d8;
-} */
